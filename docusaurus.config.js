@@ -1,17 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'wren-web',
+  tagline: 'A tiny web framework for the Wren scripting language',
+  url: 'https://wren-web.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'wren-web', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'wren-web.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'wren-web',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -25,7 +25,7 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/wren-web/wren-web',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,16 +47,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://discordapp.com/invite/cHkAchhaeN',
             },
           ],
         },
@@ -69,12 +61,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/wren-web/wren-web',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nailuj29. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,13 +77,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/wren-web/docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/wren-web/docs/edit/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
