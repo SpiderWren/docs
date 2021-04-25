@@ -16,7 +16,7 @@
      additionalLanguages.forEach((lang) => {
        require(`prismjs/components/prism-${lang}`); // eslint-disable-line
      });
-     require('./prism-wren.js');
+     require('./prism-wren-new.js');
      delete window.Prism;
    }
  };
